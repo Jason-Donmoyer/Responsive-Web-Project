@@ -48,6 +48,7 @@ h1 {
 
 .navlinks li:hover{
 	background: lightblue;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .navlinks a {
@@ -216,6 +217,7 @@ h1 {
 */
 
 @media screen and (min-width: 768px) {
+
 	#header {
 		padding-bottom: 50px;
 	}
@@ -266,13 +268,14 @@ h1 {
 		min-width: 100%
 		margin: auto; 
 		display: flex;
+		flex-wrap: wrap;
 		width: 100%;
 		padding: 25px 0;
 	}
 
 	.container {
 		/*float: left;*/
-		flex: 50%;
+		width: 50%;
 	}
 
 	.skills-container {
@@ -298,9 +301,43 @@ h1 {
 
 }
 
+@media screen and (min-width: 1024px) {
+
+	* {
+		padding: 0 20px;
+	}
+
+	#header {
+		display: inline-block;
+		width: 100%;
+	}
+
+	.student-name {
+		text-align: left;
+		float: left;
+		padding-left: 15px;
+	}
+
+	.navbar {
+		float: right;
+		min-width: 50%;
+		padding-top: 50px;
+	}
+
+	.container {
+		width: 28%;
+	}
+
+	.contact li {
+		padding-bottom: 50px;
+	}
+
+}
 
 /*font notes
 
 font-family: 'Oswald', sans-serif;
+
+font-family: 'Montserrat', sans-serif;
 
 */
