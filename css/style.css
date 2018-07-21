@@ -6,6 +6,19 @@ body {
 	background: #F5F5F5;
 }
 
+a:link {
+	text-decoration: none;
+}
+
+i {
+	padding-right: 10px;
+}
+
+h3 {
+	padding-top: 40px;
+	margin: 40px 0;
+}
+
 .wrapper {
 	padding-top: 4px;
 	font-family: 'Oswald', sans-serif;
@@ -19,6 +32,10 @@ h1 {
 	font-size: 30px;
 	margin-bottom: .25em;
 }
+
+/* 
+********* NAVBAR *********
+*/
 
 .navbar {
 	min-width: 90%;
@@ -51,6 +68,10 @@ h1 {
 	font-weight: bold;
 }
 
+/* 
+********* PROFILE IMAGE *********
+*/
+
 .profile-img {
 	padding: 25px;
 }
@@ -61,6 +82,10 @@ h1 {
 	max-width: 70%;
 	margin: auto;
 }
+
+/* 
+********* INTRO *********
+*/
 
 .intro {
 	padding: 5px;
@@ -73,16 +98,20 @@ h1 {
 	margin: auto;
 }
 
+/* 
+********* PORTFOLIO *********
+*/
+
 .portfolio {
 	text-align: center;
 	background: white;
 	padding-bottom: 25px
 }
 
-.portfolio h3 {
+/*.portfolio h3 {
 	padding-top: 40px;
 	margin: 40px 0;
-}
+}*/
 
 .portfolio img {
 	max-width: 90%;
@@ -96,16 +125,42 @@ h1 {
 	margin: auto;
 }
 
+/* 
+********* SKILLS *********
+*/
+
+.skills {
+	background: #FFFDCC;
+	text-align: center;
+	padding-bottom: 25px;
+	margin-top: -40px;
+
+}
+
+.skills p {
+	max-width: 70%;
+	margin: auto;
+	padding-bottom: 25px;
+}
+
+.skills img {
+	max-width: 90%;
+}
+
+/* 
+********* CONTACT *********
+*/
+
 .contact {
 	text-align: center;
 	max-width: 70%;
 	margin: auto;
 }
 
-.contact h3 {
+/*.contact h3 {
 	padding-top: 40px;
 	margin: 40px 0;
-}
+}*/
 
 .contact ul{
 	padding: 10px;
@@ -120,6 +175,10 @@ h1 {
 .contact a:hover {
 	color: orange;
 }
+
+/* 
+********* FOOTER *********
+*/
 
 .footer {
 	padding: 20px 5px 40px 5px;
@@ -136,6 +195,10 @@ h1 {
 	display: inline-block;
 }
 
+.footer-navbar {
+	display: none;
+}
+
 #name {
 	float: left;
 }
@@ -148,8 +211,92 @@ h1 {
 	color: orange;
 }
 
+/* 
+********* MEDIA QUERIES *********
+*/
 
+@media screen and (min-width: 768px) {
+	#header {
+		padding-bottom: 50px;
+	}
 
+	h1 {
+		padding: 30px 0;
+	}
+
+	.navlinks {
+		display: table;
+		margin: 0 auto;
+	}
+
+	.navlinks li {
+		display: inline;
+		background: #F5F5F5;
+	}
+
+	.introduction-div {
+		display: flex;
+		flex-direction: row-reverse;
+	}
+
+	.intro {
+		float: left;
+		/*display: inline-block;*/
+		max-width: 55%;
+		margin: auto;
+	}
+
+	.intro p {
+		font-size: 1.25em;
+	}
+
+	.profile-img {
+		/*display: inline-block;*/
+		padding: 0;
+		float: right;
+		max-width: 45%;
+	}
+
+	.portfolio-container {
+		width: 100%;
+	}
+
+	.row {
+		/*float: left;*/
+		min-width: 100%
+		margin: auto; 
+		display: flex;
+		width: 100%;
+		padding: 25px 0;
+	}
+
+	.container {
+		/*float: left;*/
+		flex: 50%;
+	}
+
+	.skills-container {
+		display: flex;
+	}
+
+	.skills-container img {
+		height: 200px;
+		float: left;
+	}
+
+	.contact li {
+		padding-top: 20px;
+	}
+
+	#back-to-top {
+		display: none;
+	}
+	.footer-navbar {
+		display: inline;
+		float: right;
+	}
+
+}
 
 
 /*font notes
