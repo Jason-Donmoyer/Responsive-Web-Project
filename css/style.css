@@ -1,0 +1,159 @@
+* {
+	margin: none;
+}
+
+body {
+	background: #F5F5F5;
+}
+
+.wrapper {
+	padding-top: 4px;
+	font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+	font-family: 'Oswald', bold;
+	color: darkred;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 30px;
+	margin-bottom: .25em;
+}
+
+.navbar {
+	min-width: 90%;
+	margin: auto;
+}
+
+.navlinks {
+	padding: 10px;
+}
+
+.navlinks li:hover{
+	background: lightblue;
+}
+
+.navlinks a {
+	color: darkred;
+}
+
+.navlinks a:hover {
+	color: white;
+}
+
+.navlinks li{
+	display: block;
+	list-style: none;
+	text-align: center;
+	background: white;
+	padding:  10px;
+	margin: 4px;
+	font-weight: bold;
+}
+
+.profile-img {
+	padding: 25px;
+}
+
+.profile-img img {
+	display: block;
+	padding: 0 15%;
+	max-width: 70%;
+	margin: auto;
+}
+
+.intro {
+	padding: 5px;
+}
+
+.intro p {
+	max-width: 70%;
+	text-align: center;
+	font-weight: normal;
+	margin: auto;
+}
+
+.portfolio {
+	text-align: center;
+	background: white;
+	padding-bottom: 25px
+}
+
+.portfolio h3 {
+	padding-top: 40px;
+	margin: 40px 0;
+}
+
+.portfolio img {
+	max-width: 90%;
+}
+
+.portfolio p { 
+	max-width: 70%;
+	text-align: center;
+	font-weight: normal;
+	padding-bottom: 25px;
+	margin: auto;
+}
+
+.contact {
+	text-align: center;
+	max-width: 70%;
+	margin: auto;
+}
+
+.contact h3 {
+	padding-top: 40px;
+	margin: 40px 0;
+}
+
+.contact ul{
+	padding: 10px;
+}
+
+.contact li{
+	list-style: none;
+	display: block;
+	padding: 4px;
+}
+
+.contact a:hover {
+	color: orange;
+}
+
+.footer {
+	padding: 20px 5px 40px 5px;
+}
+
+.footer ul{
+	list-style-type: none;
+	text-align: center;
+	padding: 0px;
+	margin: 0;
+}
+
+.footer li{
+	display: inline-block;
+}
+
+#name {
+	float: left;
+}
+
+#back-to-top {
+	float: right;
+}
+
+#back-to-top a:hover {
+	color: orange;
+}
+
+
+
+
+
+/*font notes
+
+font-family: 'Oswald', sans-serif;
+
+*/
