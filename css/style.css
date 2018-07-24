@@ -1,5 +1,5 @@
 * {
-	margin: none;
+	margin: 0;
 }
 
 body {
@@ -109,13 +109,10 @@ h1 {
 	padding-bottom: 25px
 }
 
-/*.portfolio h3 {
-	padding-top: 40px;
-	margin: 40px 0;
-}*/
 
 .portfolio img {
 	max-width: 90%;
+	padding: 25px 0;
 }
 
 .portfolio p { 
@@ -265,7 +262,7 @@ h1 {
 
 	.row {
 		/*float: left;*/
-		min-width: 100%
+		min-width: 100%;
 		margin: auto; 
 		display: flex;
 		flex-wrap: wrap;
@@ -329,7 +326,7 @@ h1 {
 	}
 
 	.contact li {
-		padding-bottom: 50px;
+		padding-bottom: 0 0 50px 0;
 	}
 
 }
